@@ -14,4 +14,7 @@ public class Mago extends Jogador {
 		this.mp = mp;
 	}
 	
+	public void mover(int x, int y) {
+        System.out.println("Mago moveu para (" + x + ", " + y + ")");
+    }
 }

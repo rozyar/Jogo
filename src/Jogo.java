@@ -36,7 +36,11 @@ public class Jogo {
 		Guerreiro warrior = new Guerreiro("roberto");
 		Dragao dragon = new Dragao("Waldeinsamkeit");
 		
-		fase.carregar(jogador1, mago, warrior, dragon);
+		fase.carregar(
+				() -> jogador1.mover(1, 20), 
+				() -> mago.mover(1, 20), 
+				() -> warrior.mover(1, 20), 
+				() ->dragon.mover(1, 20));
 		
 	}
 	

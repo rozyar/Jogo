@@ -24,8 +24,7 @@ public class Guerreiro extends Jogador {
 		}
 	}
 	
-	public void mover(int x, int y){
-		x += x;
-		y += y;
-	}
+	public void mover(int x, int y) {
+        System.out.println("Guerreiro moveu para (" + x + ", " + y + ")");
+    }
 }

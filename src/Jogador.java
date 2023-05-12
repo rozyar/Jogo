@@ -73,11 +73,9 @@ public class Jogador {
 		return hp == 0;
 	}
 	
-	public void mover(int x, int y){
-		x += x;
-		y += y;
-	}
-	
+	public void mover(int x, int y) {
+        System.out.println("Jogador moveu para (" + x + ", " + y + ")");
+    }
 
 	
 	

@@ -23,5 +23,7 @@ public class Dragao {
 		this.hp = hp;
 	}
 	
-	
+	public void mover(int x, int y) {
+        System.out.println("Dragao moveu para (" + x + ", " + y + ")");
+    }
 }
